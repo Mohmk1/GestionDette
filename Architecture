@@ -1,0 +1,56 @@
+app/
+├── Console/
+│   ├── Commands/         // Commandes artisan personnalisées
+│   └── Kernel.php
+├── Exceptions/
+│   ├── CustomException.php  // Exemples d’exceptions personnalisées
+│   └── Handler.php
+├── Http/
+│   ├── Controllers/
+│   │   └── ExampleController.php
+│   ├── Middleware/
+│   │   └── CustomMiddleware.php
+│   └── Requests/
+│       └── ExampleRequest.php
+├── Jobs/
+│   └── ExampleJob.php
+├── Listeners/
+│   └── ExampleListener.php
+├── Models/
+│   └── ExampleModel.php
+├── Notifications/
+│   └── ExampleNotification.php
+├── Observers/
+│   └── ExampleObserver.php
+├── Policies/
+│   └── ExamplePolicy.php
+├── Providers/
+│   ├── AppServiceProvider.php
+│   ├── AuthServiceProvider.php
+│   ├── EventServiceProvider.php
+│   └── RouteServiceProvider.php
+├── Repositories/         // Concept Repository
+│   └── ExampleRepository.php
+├── Services/             // Concept Service
+│   └── ExampleService.php
+└── Traits/               // Regroupement des traits
+    └── ExampleTrait.php
+
+bootstrap/
+config/
+database/
+├── factories/
+│   └── ExampleFactory.php
+├── migrations/
+│   └── 2024_xx_xx_create_example_table.php
+├── seeders/
+│   └── ExampleSeeder.php
+resources/
+routes/
+├── api.php
+├── web.php
+├── console.php
+└── channels.php
+storage/
+tests/
+vendor/
